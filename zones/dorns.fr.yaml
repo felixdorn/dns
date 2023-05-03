@@ -44,5 +44,6 @@ monitoring:
 send:
   - type: CNAME
     value: dorns.fr.
+_poem:
   - type: TXT
-    value: "Roma in Italia est."
+    value: "It’s not DNS. There’s no way it’s DNS. It was DNS"
