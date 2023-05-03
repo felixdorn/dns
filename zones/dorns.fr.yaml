@@ -23,6 +23,9 @@
 _dmarc:
   - type: TXT
     value: 'v=DMARC1\; p=none'
+_poem:
+  - type: TXT
+    value: "It’s not DNS. There’s no way it’s DNS. It was DNS"
 boards:
   - type: CNAME
     value: dorns.fr.
