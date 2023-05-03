@@ -12,7 +12,7 @@ jobs:
       plan: ${{ steps.generate-plan.outputs.plan }}
     steps:
       - uses: actions/checkout@v2
-      - uses: solvaholic/octodns-sync@v2.3.0
+      - uses: solvaholic/octodns-sync@v3.0.1
         id: generate-plan
         with:
           config_path: config.yaml
