@@ -15,8 +15,6 @@
       flags: 0
       tag: issue
       value: letsencrypt.org
-  - type: TXT
-    value: "Carpe posterum."
 '*':
   - type: A
     value: 54.38.192.161
@@ -46,3 +44,5 @@ monitoring:
 send:
   - type: CNAME
     value: dorns.fr.
+  - type: TXT
+    value: "Roma in Italia est."
