@@ -23,7 +23,6 @@ jobs:
         with:
           python-version: '3.10'
       - run: pip install -r requirements.txt
-      - uses: solvaholic/octodns-sync@v2.3.0
       - name: octodns-sync
         uses: solvaholic/octodns-sync@v3.0.1
         with:
