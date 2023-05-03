@@ -28,4 +28,3 @@ jobs:
         with:
           config_path: config.yaml
           doit: "--doit"
-          octodns_ref: 0.9.14
