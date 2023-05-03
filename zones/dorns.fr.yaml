@@ -1,0 +1,46 @@
+---
+'':
+  - type: 'A'
+    value: 54.38.192.161
+  - type: 'AAAA'
+    value: '2001:41d0:602:17a1::'
+  - type: 'MX'
+    value:
+      exchange: dorns.fr.
+      preference: 10
+  - type: 'TXT'
+    value: 'v=spf1 a mx -all'
+  - type: 'CAA'
+    value:
+      flags: 0
+      tag: issue
+      value: letsencrypt.org
+'*':
+  - type: 'A'
+    value: 54.38.192.161
+  - type: 'AAAA'
+    value: '2001:41d0:602:17a1::'
+_dmarc:
+  - type: TXT
+    value: 'v=DMARC1\; p=none'
+boards:
+  - type: CNAME
+    value: dorns.fr.
+couch:
+  - type: CNAME
+    value: dorns.fr.
+draw: 
+  - type: CNAME
+    value: dorns.fr.
+etherpad:
+  - type: CNAME
+    value: dorns.fr.
+mail._domainkey:
+  - type: TXT
+    value: 'v=DKIM1\; h=sha256\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUcn4beZ8eF12u1k2SbUvasEGTKaLkkMf2U6VmJlus5pk4TR+O/BpqN0sD1EN81aQ021BdLYhMws/p69jvkJJ0W3MqbJXAVh16R4W9TYrnWRrzHeLGSo83B7/D9/Zk2OwhS6vowylT/EEmuJnarKRjJCj128uSRah6a08Dkt2STwIDAQAB'
+monitoring:
+  - type: CNAME
+    value: dorns.fr.
+send:
+  - type: CNAME
+    value: dorns.fr.

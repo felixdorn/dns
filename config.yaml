@@ -1,0 +1,20 @@
+---
+providers:
+  config:
+    class: octodns.provider.yaml.YamlProvider
+    directory: zones
+  cloudflare:
+    class: octodns.provider.cloudflare.CloudflareProvider
+    email: env/CLOUDFLARE_EMAIL
+    token: env/CLOUDFLARE_TOKEN
+zones:
+  dorns.fr.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+  o1.vc.:
+    sources:
+      - config
+    targets:
+      - cloudflare
