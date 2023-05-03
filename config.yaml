@@ -1,4 +1,9 @@
 ---
+manager:
+  # We need this tto add a PR comment
+  plan_outputs:
+    html:
+      class: octodns.provider.plan.PlanHtml
 providers:
   config:
     class: octodns.provider.yaml.YamlProvider
