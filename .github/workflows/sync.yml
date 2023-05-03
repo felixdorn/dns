@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: octodns-sync
-        uses: solvaholic/octodns-sync@v2.3.0
+        uses: solvaholic/octodns-sync@v3.0.1
         with:
           config_path: config.yaml
           doit: "--doit"
