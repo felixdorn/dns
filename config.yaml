@@ -21,8 +21,3 @@ zones:
       - config
     targets:
       - cloudflare
-  o1.vc.:
-    sources:
-      - config
-    targets:
-      - cloudflare
