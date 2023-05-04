@@ -13,6 +13,8 @@ providers:
     class: octodns.provider.cloudflare.CloudflareProvider
     email: env/CLOUDFLARE_EMAIL
     token: env/CLOUDFLARE_TOKEN
+    update_pcent_threshold: 1
+    delete_pcent_threshold: 1
 zones:
   dorns.fr.:
     sources:
