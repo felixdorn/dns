@@ -1,9 +1,7 @@
 ---
 '':
   - type: A
-    value: 54.38.192.161
-  - type: AAAA
-    value: '2001:41d0:602:17a1::'
+    value: 37.187.105.125
   - type: MX
     value:
       exchange: o1.vc.
