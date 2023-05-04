@@ -15,7 +15,7 @@
       value: letsencrypt.org
 '*':
   - type: A
-    value: 54.38.192.161
+    value: 37.187.105.125
 _dmarc:
   - type: TXT
     value: 'v=DMARC1\; p=none'
