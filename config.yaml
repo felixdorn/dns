@@ -7,6 +7,7 @@ manager:
 providers:
   config:
     class: octodns.provider.yaml.YamlProvider
+    default_ttl: 300
     directory: zones
   cloudflare:
     class: octodns.provider.cloudflare.CloudflareProvider
