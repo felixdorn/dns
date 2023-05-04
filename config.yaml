@@ -8,13 +8,13 @@ providers:
   config:
     class: octodns.provider.yaml.YamlProvider
     default_ttl: 300
-    update_pcent_threshold: 1
-    delete_pcent_threshold: 1
     directory: zones
   cloudflare:
     class: octodns.provider.cloudflare.CloudflareProvider
     email: env/CLOUDFLARE_EMAIL
     token: env/CLOUDFLARE_TOKEN
+    update_pcent_threshold: 1
+    delete_pcent_threshold: 1
 zones:
   dorns.fr.:
     sources:
