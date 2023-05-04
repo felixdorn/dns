@@ -36,7 +36,7 @@ etherpad:
     value: dorns.fr.
 mail._domainkey:
   - type: TXT
-    value: 'v=DKIM1\; h=sha256\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUcn4beZ8eF12u1k2SbUvasEGTKaLkkMf2U6VmJlus5pk4TR+O/BpqN0sD1EN81aQ021BdLYhMws/p69jvkJJ0W3MqbJXAVh16R4W9TYrnWRrzHeLGSo83B7/D9/Zk2OwhS6vowylT/EEmuJnarKRjJCj128uSRah6a08Dkt2STwIDAQAB'
+    value: 'v=DKIM1\; h=sha256\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCgjMU8Y/N/AekP5+j7eOFzZrR+DBjmrU5IYn9QbN7gTFMkjmfEvA3XjghMe+OZVtCvVLDi1XmUE/xUIJZcpoHeY0l27FYzkKsO+tPh2/0sHmWWUV9Dyo8hlQQhHrnHtg0ZcTI9QL5ID+Pnr4aTulQkKcmSH4CstAc7kBO1eXLywIDAQAB'
 monitoring:
   - type: CNAME
     value: dorns.fr.
